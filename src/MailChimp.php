@@ -195,11 +195,11 @@ class MailChimp
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-            'Accept: application/vnd.api+json',
-            'Content-Type: application/vnd.api+json',
+            'Accept: application/json',
+            'Content-Type: application/json',
             'Authorization: apikey ' . $this->api_key
         ));
-        curl_setopt($ch, CURLOPT_USERAGENT, 'DrewM/MailChimp-API/3.0 (github.com/drewm/mailchimp-api)');
+        curl_setopt($ch, CURLOPT_USERAGENT, 'Mailchimp API');
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_TIMEOUT, $timeout);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, $this->verify_ssl);
