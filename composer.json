@@ -1,5 +1,5 @@
 {
-    "name": "drewm/mailchimp-api",
+    "name": "coderiekelt/mailchimp-api",
     "description": "Super-simple, minimum abstraction MailChimp API v3 wrapper",
     "license": "MIT",
     "require": {
@@ -15,13 +15,17 @@
             "DrewM\\MailChimp\\": "src"
         }
     },
-    "homepage": "https://github.com/drewm/mailchimp-api",
+    "homepage": "https://github.com/coderiekelt/mailchimp-api",
     "authors": [ 
         {
             "name": "Drew McLellan",
             "email": "drew.mclellan@gmail.com",
             "homepage": "http://allinthehead.com/"
-
+        },
+        {
+            "name": "Riekelt Brands",
+            "email": "riekelturk@yahoo.nl",
+            "homepage": "http://riekeltbrands.nl/"
         }
     ]
 
